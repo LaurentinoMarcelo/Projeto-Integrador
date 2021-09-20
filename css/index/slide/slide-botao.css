@@ -1,0 +1,10 @@
+.slide__botao{
+    color: black;
+    background: #FFF94B;
+    border-radius: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    height: 60px;
+    width: 250px;
+}

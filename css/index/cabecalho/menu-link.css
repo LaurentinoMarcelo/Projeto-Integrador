@@ -1,0 +1,31 @@
+.navbar-ligh .navbar-nav .nav-link{
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+}
+
+.navbar-ligh .navbar-nav .nav-link:hover{
+    color: red;
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .navbar-ligh .navbar-nav .nav-link{
+       font-size: 12px;
+        
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .navbar-ligh .navbar-nav .nav-link{
+        font-size: 14px;
+         
+     }
+ }
+
+
+

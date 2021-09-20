@@ -1,0 +1,11 @@
+html, body, #slide{
+    height: 100%;
+}
+
+
+body{
+    background-image: linear-gradient(#FFF956, #3A3800);
+    background-repeat: repeat-x;
+    background-repeat: repeat-y no-repeat;
+}
+

@@ -1,0 +1,8 @@
+.slide__titulo{
+    color: black;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight:bold;
+    margin-bottom: 20px;
+}
