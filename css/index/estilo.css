@@ -1,5 +1,9 @@
 html, body, #slide{
-    height: 100%;
+  
+}
+
+body{
+    margin-top: 130px;
 }
 
 
