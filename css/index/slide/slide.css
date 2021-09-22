@@ -1,5 +1,18 @@
-.slide{
-    background-image: linear-gradient(#FFF956, #3A3800);
-    height: auto;
-    width: auto;
+.carousel-inner{
+    height: 1200px;
+    width: 100%;
+    
 }
+
+#slide{
+    background-image: url("../../../imagens/mecanico.png");
+    background-repeat: no-repeat;
+    
+}
+
+.container{
+    margin-top: 500px;
+}
+
+
+

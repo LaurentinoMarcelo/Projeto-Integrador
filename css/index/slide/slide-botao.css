@@ -1,17 +1,16 @@
 .slide__botao{
-    color: white;
-    background: black;
+    color: black;
+    background: white;
     border-radius: 50px;
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     font-weight: bold;
     height: 50px;
-    margin-left: 150px;
     margin-bottom: 10px;
     width: 250px;
 }
 
 .slide__botao:hover{
-    color: black;
-    background: white;
+    color: white;
+    background: black;
 }
