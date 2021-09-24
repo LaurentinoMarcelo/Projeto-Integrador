@@ -3,7 +3,8 @@
     border-radius: 50px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    margin-left: 50px;
+    font-size: 23px;
+    
     text-transform: uppercase;
     width: 250px;
 }

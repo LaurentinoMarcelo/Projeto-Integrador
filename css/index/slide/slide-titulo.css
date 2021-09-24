@@ -1,11 +1,11 @@
 .slide__titulo{
-    color: white;
-    font-size: 90px;
+    color: red;
+    font-size: 64px;
     font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
     font-weight:bold;
-    margin-bottom: 20px; 
-    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: start; 
 }
 
 /* Small devices (landscape phones, 576px and up)*/

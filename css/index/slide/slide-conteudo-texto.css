@@ -1,7 +1,9 @@
 .slide_conteudo_texto{
-    margin-top: 250px;
-    border: 2px solid red;
-    width: 1200px;
+    background: rgba(0, 0, 0, 0.295);
+    margin-top: 100px;
+    padding: 20px;
+    width: 815px;
+    
 }
 
 

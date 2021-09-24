@@ -1,7 +1,7 @@
 .slide__paragrafo{
     color: white;
-    font-size: 60px;
+    font-size: 30px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    text-align: start;
 }
 

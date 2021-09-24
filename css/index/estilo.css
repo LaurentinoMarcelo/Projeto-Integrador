@@ -4,15 +4,17 @@ html, body, #slide{
 }
 
 body{
-    
-}
-
-
-body{
-    background-image: linear-gradient(#FFF956, #3A3800);
+    background-image: url(../../imagens/fundo.png);
     background-repeat: repeat-x;
     background-repeat: repeat-y no-repeat;
 }
+
+.container{
+    max-width: 1505px;
+}
+
+
+
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 300px) and (max-width: 767.98px) { 
