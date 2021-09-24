@@ -33,6 +33,13 @@
     <link rel="stylesheet" type="text/css" href="css/index/slide/slide-conteudo-texto.css">
     <link rel="stylesheet" type="text/css" href="css/index/slide/slide-paragrafo.css">
 
+    <link rel="stylesheet" type="text/css" href="css/index/sobre/sobre-nos.css">
+    <link rel="stylesheet" type="text/css" href="css/index/sobre/sobre-botao.css">
+    <link rel="stylesheet" type="text/css" href="css/index/sobre/sobre-conteudo.css">
+    <link rel="stylesheet" type="text/css" href="css/index/sobre/sobre-paragrafo.css">
+    <link rel="stylesheet" type="text/css" href="css/index/sobre/sobre-titulo.css">
+
+
     
     
 
@@ -81,7 +88,12 @@
 
     <section>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        
+        <!-- Navegação entre os slides -->
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          
+        </ol>
             <div class="carousel-inner">
               <!-- Slide Principal -->
               <div class="carousel-item active">
@@ -105,18 +117,19 @@
                   </div>
                 </div>
               </div>
-
             </div>
-            <!-- Navegação entre os slides -->
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+      
         </div>
+    </section>
+
+    <section class="sobre-nos">
+      <div class="conteudo-sobre-nos">
+        <h1 class="slide__titulo">Sobre nós</h1>
+        <p class="slide__paragrafo">A oficina Mônaco deu inicio em suas atividades ... na cidade ..., desde então vendo sendo um diferencial no ramo de auto center, com profissionais qualificados, garantia nos serviços, preços implacáveis, sistema de leva e traz( KKKKKKK to inventando tudo nem sei se tem) e disponibilizando todo o conforto para os nossos clientes.</p>
+        <button class="btn btn-dark slide__botao">Venha nos conhecer</button>
+      </div>
+        
+      </div>
     </section>
 
     

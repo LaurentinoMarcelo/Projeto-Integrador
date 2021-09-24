@@ -5,12 +5,15 @@ html, body, #slide{
 
 body{
     background-image: url(../../imagens/fundo.png);
-    background-repeat: repeat-x;
-    background-repeat: repeat-y no-repeat;
+    
 }
 
 .container{
     max-width: 1505px;
+}
+
+#carouselExampleIndicators{
+    height: 705px;
 }
 
 

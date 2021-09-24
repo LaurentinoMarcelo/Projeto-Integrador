@@ -1,0 +1,9 @@
+.sobre-nos{
+    border-radius: 20px;
+    border: 4px solid black;
+    background-image: url(../../../imagens/fotoOficina.png);
+    height: 723px;
+    width: 1505px;
+    margin-left: auto;
+    margin-right: auto;
+}
