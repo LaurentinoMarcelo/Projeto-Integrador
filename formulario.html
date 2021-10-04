@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="css/index/estilo.css">
+
+    <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu-logo.css">
+    <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu-botao.css">
+    <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu-item.css">
+    <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu-link.css">
+    <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/index/cabecalho/logo.css">
+
+    <link rel="stylesheet" href="css/formulario/formulario-label.css">
+    <link rel="stylesheet" href="css/formulario/formulario-campo.css">
+    <link rel="stylesheet" href="css/formulario/formulario-section.css">
+    <link rel="stylesheet" href="css/formulario/formulario-servicos.css">
+    <link rel="stylesheet" href="css/formulario/formulario-data.css">
+
+    <title>Mônaco - Oficina</title>
+  </head>
+  <body>
+      <header>
+    <nav class="navbar navbar-expand-lg navbar-ligh fixed-top menu">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">
+             <img src="imagens/logo.png" class="menu__logo" alt="logo oficina">
+          </a>
+
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <i class="fas fa-bars "></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="nav-principal">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item menu__item">
+                <a href="" class="nav-link ">Home</a>
+              </li>
+
+              <li class="nav-item menu__item">
+                <a href="" class="nav-link">Sobre nós</a>
+              </li>
+
+              <li class="nav-item menu__item">
+                <a href="" class="nav-link">Produtos e serviços</a>
+              </li>
+
+              <li class="nav-item menu__item">
+                <a href="" class="nav-link">Contato</a>
+              </li>
+
+              <li class="nav-item menu__item">
+                <a href="" class="btn btn-dark w-200 h-60 menu__botao">Agende um serviço</a>
+              </li>
+            </ul>
+          </div>
+        
+      </div>
+    </nav>
+      </header>
+
+      <section class="container">
+          <form class="container__formulario">
+  <!-- Selecione o Modelo -->           
+            <div class="form-group formulario__section">
+                <label class="formulario__label">Selecione o modelo</label>
+                <select class="form-control form-control-lg formulario__campo">
+                    <option>Ano</option>
+                    <option>Menor 2000</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                    <option>2004</option>
+                    <option>2005</option>
+                    <option>2006</option>
+                    <option>2007</option>
+                    <option>2008</option>
+                    <option>2009</option>
+                    <option>2010</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                </select>
+
+                <select class="form-control form-control-lg formulario__campo">
+                    <option>Marca</option>
+                    <option>FIAT</option>
+                    <option>Volkswagen</option>
+                    <option>GM	</option>
+                    <option>Hyundai</option>
+                    <option>Renault</option>
+                    <option>Toyota</option>
+                    <option>Ford</option>
+                    <option>Honda</option>
+                    <option>Nissan</option>
+                    <option>Caoa Chery</option>
+                    <option>Peugeot</option>
+                    <option>Mitsubishi</option>
+                    <option>Citroen</option>
+                    <option>BMW</option>
+                    <option>Volvo</option>
+                    <option>Mercedes</option>
+                    <option>Audi</option>
+                    <option>Kia</option>
+                    <option>Iveco</option>
+                    <option>JAC</option>
+                    <option>Dodge</option>
+                    <option>Troler</option>
+                </select>
+
+                <select class="form-control form-control-lg formulario__campo">
+                    <option>Modelo</option>
+                </select> 
+            </div>
+  <!-- Selecione os serviços -->        
+            <div class="form-group formulario__section">
+              <div class="container">
+                 <label class="formulario__label">Selecione os serviços</label>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-check">
+                      <input class="form-check-input big-checkbox" type="checkbox" name="alinhamento" id="checkAlinhamento" value="option1" checked>
+                      <label class="form-check-label formulario__servicos" for="Alinhamento">
+                      Alinhamento
+                      </label>
+                  </div>
+
+                  <div class="form-check">
+                      <input class="form-check-input big-checkbox" type="checkbox" name="balanceamento" id="balanceamento" value="option2" checked>
+                      <label class="form-check-label formulario__servicos" for="balanceamento">
+                      Balanceamento
+                      </label>
+                  </div>
+
+                  <div class="form-check">
+                      <input class="form-check-input big-checkbox" type="checkbox" name="cambagemCaster" id="cambagemCaster" value="option3" checked>
+                      <label class="form-check-label formulario__servicos" for="cambagemCaster">
+                      Cambagem e Caster
+                      </label>
+                  </div>
+
+                  <div class="form-check">
+                      <input class="form-check-input big-checkbox" type="checkbox" name="motor" id="motor" value="option4" checked>
+                      <label class="form-check-label formulario__servicos" for="motor">
+                      Motor
+                      </label>
+                  </div>
+
+                  <div class="form-check">
+                      <input class="form-check-input big-checkbox" type="checkbox" name="embreagem" id="embreagem" value="option5" checked>
+                      <label class="form-check-label formulario__servicos" for="embreagem">
+                      Embreagem
+                      </label>
+                  </div>
+
+                  </div>
+                  <div class="col-6">
+                    <div class="form-check">
+                      <input class="form-check-input big-checkbox" type="checkbox" name="suspensao" id="suspensao" value="option6" checked>
+                      <label class="form-check-label formulario__servicos" for="suspensao">
+                      Suspensão
+                      </label>
+                  </div>
+
+                  <div class="form-check">
+                      <input class="form-check-input big-checkbox" type="checkbox" name="freio" id="freio" value="option7" checked>
+                      <label class="form-check-label formulario__servicos" for="freio">
+                      Freio
+                      </label>
+                  </div>
+
+                  <div class="form-check">
+                      <input class="form-check-input big-checkbox" type="checkbox" name="escapamento" id="escapamento" value="option8" checked>
+                      <label class="form-check-label formulario__servicos" for="escapamento">
+                      Escapamento
+                      </label>
+                  </div>
+
+                  <div class="form-check">
+                      <input class="form-check-input big-checkbox" type="checkbox" name="pneus" id="pneus" value="option9" checked>
+                      <label class="form-check-label formulario__servicos" for="pneus">
+                      Pneus
+                      </label>
+                  </div>
+
+                  <div class="form-check">
+                      <input class="form-check-input big-checkbox" type="checkbox" name="trocaOleo" id="trocaOleo" value="option10" checked>
+                      <label class="form-check-label formulario__servicos" for="trocaOleo">
+                      Troca de Óleo
+                      </label>
+                  </div> 
+                  </div>
+                </div>
+
+              </div>
+               
+                    
+
+                    
+            </div>
+  <!-- Comentários -->  
+            <div class="form-group formulario__section">
+                <label class="formulario__label formulario__campo">Comentários</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+            </div>
+  <!-- Data e hora do agendamento -->          
+            <div class="form-group formulario__section"> 
+              <label class="formulario__label formulario__campo">Data do agendamento</label>
+              <br>
+              <input class="formulario__data" type="datetime-local" placeholder="Preencha 2020-05-20" data-form-date>
+            </div> 
+  <!-- Informações de Contato -->            
+            <div class="form-group formulario__section">  
+              <label class="formulario__label">Informações de Contato</label>
+              
+              <div class="form-row">
+                <div class="col-3 form-check">
+                  <input class="form-check-input " type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    Default radio
+                  </label>
+                </div>
+
+                <div class="col-3 form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    Default radio
+                  </label>
+                </div>
+              </div> 
+
+             
+              <div>
+                <input type="text" class="form-control formulario__campo" placeholder="Nome">
+                            
+                <input type="text" class="form-control formulario__campo" placeholder="Sobrenome">
+               
+                <input type="text" class="form-control formulario__campo" placeholder="CPF">
+
+                <input type="text" class="form-control formulario__campo" placeholder="Telefone / Whatsapp">
+
+                <input type="text" class="form-control formulario__campo"  placeholder="Email">
+              </div>
+            </div>    
+              
+            <button type="submit" class="btn btn-primary">Agendar Manutenção</button>
+          </form>
+
+
+      </section>
+
+
+
+      <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+  
