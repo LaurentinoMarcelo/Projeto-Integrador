@@ -1,0 +1,17 @@
+.botao__formulario{
+    
+    background: white;
+    border-radius: 15px;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    height: 70px;
+    width: 400px;
+}
+
+.botao__formulario:hover{
+    background: black;
+}
+

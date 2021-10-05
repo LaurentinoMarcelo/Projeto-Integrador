@@ -1,0 +1,12 @@
+.formulario{
+    color: white;
+    background-image: linear-gradient(#FF1F00, #1B1B1B);
+}
+
+.imagem_formulario{
+   display: block;
+   height: 600px;
+   margin-left: calc(100% - 600px);
+   width: 600px;
+}
+

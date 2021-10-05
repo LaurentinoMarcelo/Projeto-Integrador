@@ -26,6 +26,10 @@
     <link rel="stylesheet" href="css/formulario/formulario-section.css">
     <link rel="stylesheet" href="css/formulario/formulario-servicos.css">
     <link rel="stylesheet" href="css/formulario/formulario-data.css">
+    <link rel="stylesheet" href="css/formulario/formulario-botao.css">
+    <link rel="stylesheet" href="css/formulario/formulario-contato.css">
+    <link rel="stylesheet" href="css/formulario/formulario.css">
+    <link rel="stylesheet" href="css/formulario/formulario-campo-texto.css">
 
     <title>Mônaco - Oficina</title>
   </head>
@@ -69,202 +73,214 @@
     </nav>
       </header>
 
-      <section class="container">
-          <form class="container__formulario">
-  <!-- Selecione o Modelo -->           
-            <div class="form-group formulario__section">
-                <label class="formulario__label">Selecione o modelo</label>
-                <select class="form-control form-control-lg formulario__campo">
-                    <option>Ano</option>
-                    <option>Menor 2000</option>
-                    <option>2001</option>
-                    <option>2002</option>
-                    <option>2003</option>
-                    <option>2004</option>
-                    <option>2005</option>
-                    <option>2006</option>
-                    <option>2007</option>
-                    <option>2008</option>
-                    <option>2009</option>
-                    <option>2010</option>
-                    <option>2011</option>
-                    <option>2012</option>
-                    <option>2013</option>
-                    <option>2014</option>
-                    <option>2015</option>
-                    <option>2016</option>
-                    <option>2017</option>
-                    <option>2018</option>
-                    <option>2019</option>
-                    <option>2020</option>
-                    <option>2021</option>
-                    <option>2022</option>
-                </select>
+      <section class="container formulario">
+        <div class="container"></div>
+          <div class="row">
+            <div class="col">
+              <form class="container__formulario">
+      <!-- Selecione o Modelo -->           
+                <div class="form-group formulario__section">
+                    <label class="formulario__label">Selecione o modelo</label>
+                    <select class="form-control form-control-lg formulario__campo formulario__campo__texto">
+                        <option>Ano</option>
+                        <option>Menor 2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        <option>2010</option>
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                    </select>
 
-                <select class="form-control form-control-lg formulario__campo">
-                    <option>Marca</option>
-                    <option>FIAT</option>
-                    <option>Volkswagen</option>
-                    <option>GM	</option>
-                    <option>Hyundai</option>
-                    <option>Renault</option>
-                    <option>Toyota</option>
-                    <option>Ford</option>
-                    <option>Honda</option>
-                    <option>Nissan</option>
-                    <option>Caoa Chery</option>
-                    <option>Peugeot</option>
-                    <option>Mitsubishi</option>
-                    <option>Citroen</option>
-                    <option>BMW</option>
-                    <option>Volvo</option>
-                    <option>Mercedes</option>
-                    <option>Audi</option>
-                    <option>Kia</option>
-                    <option>Iveco</option>
-                    <option>JAC</option>
-                    <option>Dodge</option>
-                    <option>Troler</option>
-                </select>
+                    <select id="marcaCarro" class="form-control form-control-lg formulario__campo formulario__campo__texto">
+                        <option>Marca</option>
+                        <option>FIAT</option>
+                        <option>Volkswagen</option>
+                        <option>GM	</option>
+                        <option>Hyundai</option>
+                        <option>Renault</option>
+                        <option>Toyota</option>
+                        <option>Ford</option>
+                        <option>Honda</option>
+                        <option>Nissan</option>
+                        <option>Caoa Chery</option>
+                        <option>Peugeot</option>
+                        <option>Mitsubishi</option>
+                        <option>Citroen</option>
+                        <option>BMW</option>
+                        <option>Volvo</option>
+                        <option>Mercedes</option>
+                        <option>Audi</option>
+                        <option>Kia</option>
+                        <option>Iveco</option>
+                        <option>JAC</option>
+                        <option>Dodge</option>
+                        <option>Troler</option>
+                    </select>
 
-                <select class="form-control form-control-lg formulario__campo">
-                    <option>Modelo</option>
-                </select> 
-            </div>
-  <!-- Selecione os serviços -->        
-            <div class="form-group formulario__section">
-              <div class="container">
-                 <label class="formulario__label">Selecione os serviços</label>
-                <div class="row">
-                  <div class="col-6">
-                    <div class="form-check">
-                      <input class="form-check-input big-checkbox" type="checkbox" name="alinhamento" id="checkAlinhamento" value="option1" checked>
-                      <label class="form-check-label formulario__servicos" for="Alinhamento">
-                      Alinhamento
-                      </label>
+                    <select id="modeloCarro" class="form-control form-control-lg formulario__campo formulario__campo__texto">
+                        <option>Modelo</option>
+                    </select> 
+                </div>
+      <!-- Selecione os serviços -->        
+                <div class="form-group formulario__section">
+                  <div class="container">
+                    <label class="formulario__label">Selecione os serviços</label>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="form-check">
+                          <input class="form-check-input big-checkbox" type="checkbox" name="alinhamento" id="checkAlinhamento" value="option1" checked>
+                          <label class="form-check-label formulario__servicos" for="Alinhamento">
+                          Alinhamento
+                          </label>
+                      </div>
+
+                      <div class="form-check">
+                          <input class="form-check-input big-checkbox" type="checkbox" name="balanceamento" id="balanceamento" value="option2" checked>
+                          <label class="form-check-label formulario__servicos" for="balanceamento">
+                          Balanceamento
+                          </label>
+                      </div>
+
+                      <div class="form-check">
+                          <input class="form-check-input big-checkbox" type="checkbox" name="cambagemCaster" id="cambagemCaster" value="option3" checked>
+                          <label class="form-check-label formulario__servicos" for="cambagemCaster">
+                          Cambagem e Caster
+                          </label>
+                      </div>
+
+                      <div class="form-check">
+                          <input class="form-check-input big-checkbox" type="checkbox" name="motor" id="motor" value="option4" checked>
+                          <label class="form-check-label formulario__servicos" for="motor">
+                          Motor
+                          </label>
+                      </div>
+
+                      <div class="form-check">
+                          <input class="form-check-input big-checkbox" type="checkbox" name="embreagem" id="embreagem" value="option5" checked>
+                          <label class="form-check-label formulario__servicos" for="embreagem">
+                          Embreagem
+                          </label>
+                      </div>
+
+                      </div>
+                      <div class="col-6">
+                        <div class="form-check">
+                          <input class="form-check-input big-checkbox" type="checkbox" name="suspensao" id="suspensao" value="option6" checked>
+                          <label class="form-check-label formulario__servicos" for="suspensao">
+                          Suspensão
+                          </label>
+                      </div>
+
+                      <div class="form-check">
+                          <input class="form-check-input big-checkbox" type="checkbox" name="freio" id="freio" value="option7" checked>
+                          <label class="form-check-label formulario__servicos" for="freio">
+                          Freio
+                          </label>
+                      </div>
+
+                      <div class="form-check">
+                          <input class="form-check-input big-checkbox" type="checkbox" name="escapamento" id="escapamento" value="option8" checked>
+                          <label class="form-check-label formulario__servicos" for="escapamento">
+                          Escapamento
+                          </label>
+                      </div>
+
+                      <div class="form-check">
+                          <input class="form-check-input big-checkbox" type="checkbox" name="pneus" id="pneus" value="option9" checked>
+                          <label class="form-check-label formulario__servicos" for="pneus">
+                          Pneus
+                          </label>
+                      </div>
+
+                      <div class="form-check">
+                          <input class="form-check-input big-checkbox" type="checkbox" name="trocaOleo" id="trocaOleo" value="option10" checked>
+                          <label class="form-check-label formulario__servicos" for="trocaOleo">
+                          Troca de Óleo
+                          </label>
+                      </div> 
+                      </div>
+                    </div>
+
                   </div>
+                  
+                        
 
-                  <div class="form-check">
-                      <input class="form-check-input big-checkbox" type="checkbox" name="balanceamento" id="balanceamento" value="option2" checked>
-                      <label class="form-check-label formulario__servicos" for="balanceamento">
-                      Balanceamento
+                        
+                </div>
+      <!-- Comentários -->  
+                <div class="form-group formulario__section">
+                    <label class="formulario__label formulario__campo">Comentários</label>
+                    <textarea class="form-control formulario__campo__texto" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+      <!-- Data e hora do agendamento -->          
+                <div class="form-group formulario__section"> 
+                  <label class="formulario__label formulario__campo">Data do agendamento</label>
+                  <br>
+                  <input class="formulario__data" type="datetime-local" placeholder="Preencha 2020-05-20" data-form-date>
+                </div> 
+      <!-- Informações de Contato -->            
+                <div class="form-group formulario__section">  
+                  <label class="formulario__label">Informações de Contato</label>
+                  
+                  <div class="form-row">
+                    <div class="col-3 form-check">
+                      <input class="form-check-input big-checkbox" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                      <label class="form-check-label formulario__contato" for="exampleRadios1">
+                        Pessoal
                       </label>
-                  </div>
+                    </div>
 
-                  <div class="form-check">
-                      <input class="form-check-input big-checkbox" type="checkbox" name="cambagemCaster" id="cambagemCaster" value="option3" checked>
-                      <label class="form-check-label formulario__servicos" for="cambagemCaster">
-                      Cambagem e Caster
+                    <div class="col-3 form-check">
+                      <input class="form-check-input big-checkbox" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                      <label class="form-check-label formulario__contato" for="exampleRadios1">
+                        Trabalho
                       </label>
-                  </div>
-
-                  <div class="form-check">
-                      <input class="form-check-input big-checkbox" type="checkbox" name="motor" id="motor" value="option4" checked>
-                      <label class="form-check-label formulario__servicos" for="motor">
-                      Motor
-                      </label>
-                  </div>
-
-                  <div class="form-check">
-                      <input class="form-check-input big-checkbox" type="checkbox" name="embreagem" id="embreagem" value="option5" checked>
-                      <label class="form-check-label formulario__servicos" for="embreagem">
-                      Embreagem
-                      </label>
-                  </div>
-
-                  </div>
-                  <div class="col-6">
-                    <div class="form-check">
-                      <input class="form-check-input big-checkbox" type="checkbox" name="suspensao" id="suspensao" value="option6" checked>
-                      <label class="form-check-label formulario__servicos" for="suspensao">
-                      Suspensão
-                      </label>
-                  </div>
-
-                  <div class="form-check">
-                      <input class="form-check-input big-checkbox" type="checkbox" name="freio" id="freio" value="option7" checked>
-                      <label class="form-check-label formulario__servicos" for="freio">
-                      Freio
-                      </label>
-                  </div>
-
-                  <div class="form-check">
-                      <input class="form-check-input big-checkbox" type="checkbox" name="escapamento" id="escapamento" value="option8" checked>
-                      <label class="form-check-label formulario__servicos" for="escapamento">
-                      Escapamento
-                      </label>
-                  </div>
-
-                  <div class="form-check">
-                      <input class="form-check-input big-checkbox" type="checkbox" name="pneus" id="pneus" value="option9" checked>
-                      <label class="form-check-label formulario__servicos" for="pneus">
-                      Pneus
-                      </label>
-                  </div>
-
-                  <div class="form-check">
-                      <input class="form-check-input big-checkbox" type="checkbox" name="trocaOleo" id="trocaOleo" value="option10" checked>
-                      <label class="form-check-label formulario__servicos" for="trocaOleo">
-                      Troca de Óleo
-                      </label>
+                    </div>
                   </div> 
+
+                
+                  <div>
+                    <input type="text" class="form-control formulario__campo formulario__campo__texto" placeholder="Nome">
+                                
+                    <input type="text" class="form-control formulario__campo formulario__campo__texto" placeholder="Sobrenome">
+                  
+                    <input type="text" class="form-control formulario__campo formulario__campo__texto" placeholder="CPF">
+
+                    <input type="text" class="form-control formulario__campo formulario__campo__texto" placeholder="Telefone / Whatsapp">
+
+                    <input type="text" class="form-control formulario__campo formulario__campo__texto"  placeholder="Email">
                   </div>
-                </div>
-
-              </div>
-               
-                    
-
-                    
-            </div>
-  <!-- Comentários -->  
-            <div class="form-group formulario__section">
-                <label class="formulario__label formulario__campo">Comentários</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-            </div>
-  <!-- Data e hora do agendamento -->          
-            <div class="form-group formulario__section"> 
-              <label class="formulario__label formulario__campo">Data do agendamento</label>
-              <br>
-              <input class="formulario__data" type="datetime-local" placeholder="Preencha 2020-05-20" data-form-date>
-            </div> 
-  <!-- Informações de Contato -->            
-            <div class="form-group formulario__section">  
-              <label class="formulario__label">Informações de Contato</label>
+                </div>  
+                  
               
-              <div class="form-row">
-                <div class="col-3 form-check">
-                  <input class="form-check-input " type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                  <label class="form-check-label" for="exampleRadios1">
-                    Default radio
-                  </label>
-                </div>
+                <button type="submit" class="btn btn-primary botao__formulario">Agendar Manutenção</button>
+              </form>
+            </div>
+            <div class="col">
+              <img class="imagem_formulario" src="imagens/Nova pasta/imgem-formulario1.png" alt="">
+              <img class="imagem_formulario" src="imagens/Nova pasta/imgem-formulario2.png" alt="">
+              <img class="imagem_formulario" src="imagens/Nova pasta/imgem-formulario3.png" alt="">
+            </div>
 
-                <div class="col-3 form-check">
-                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                  <label class="form-check-label" for="exampleRadios1">
-                    Default radio
-                  </label>
-                </div>
-              </div> 
-
-             
-              <div>
-                <input type="text" class="form-control formulario__campo" placeholder="Nome">
-                            
-                <input type="text" class="form-control formulario__campo" placeholder="Sobrenome">
-               
-                <input type="text" class="form-control formulario__campo" placeholder="CPF">
-
-                <input type="text" class="form-control formulario__campo" placeholder="Telefone / Whatsapp">
-
-                <input type="text" class="form-control formulario__campo"  placeholder="Email">
-              </div>
-            </div>    
-              
-            <button type="submit" class="btn btn-primary">Agendar Manutenção</button>
-          </form>
-
+          </div>
+        </div>
 
       </section>
 
@@ -275,6 +291,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="js/modeloCarro.js"></script>
   </body>
 </html>
 
