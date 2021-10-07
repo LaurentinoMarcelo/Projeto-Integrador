@@ -1,0 +1,29 @@
+.manutencao{
+    border-radius: 50px 50px 0 0;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    background: #FFF999;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    width: 316px;
+
+}
+
+.detalheManutencao{
+    border-radius: 50px 50px 0 0;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    background: #A3A4A0;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    width: 316px;
+}
+
