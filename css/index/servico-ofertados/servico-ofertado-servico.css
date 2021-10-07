@@ -1,0 +1,32 @@
+.servico__ofertado__servico{
+    background: white;
+    border-radius: 20px;
+    height: 408px;
+    width: 387.2px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.servico__titulo{
+    bottom: 0;
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    
+}
+
+.servico__imagens{
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
