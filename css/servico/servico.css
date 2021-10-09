@@ -2,9 +2,13 @@
     background: white;
     border-radius: 10px;
     border: 2px solid black;
-    height: 614px;
     margin-top: 50px;
     width: 1440px;
+}
+
+.container__servico{
+   height: 408px;
+    
 }
 
 .servico__imagem{
@@ -14,6 +18,7 @@
 }
 
 .servico__botao{
+    background-color: red;
     border-radius: 30px;
     border: 2px solid black;
     font-size: 30px;
@@ -35,6 +40,7 @@
 
 .servico__lista{
     width: 1440px;
-    margin-top: 120px;
+    margin-top: 50px;
 }
+
 
