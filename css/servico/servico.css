@@ -1,0 +1,40 @@
+.servico{
+    background: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 614px;
+    margin-top: 50px;
+    width: 1440px;
+}
+
+.servico__imagem{
+   margin-top: 20px;
+   border-radius: 10px;
+   border: 2px solid black;
+}
+
+.servico__botao{
+    border-radius: 30px;
+    border: 2px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    height: 60px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    width: 377px;
+}
+
+.servico__botao:hover{
+    background: white;
+    color: black;
+}
+
+.servico_margin_conteudo{
+   text-align: center;
+}
+
+.servico__lista{
+    width: 1440px;
+    margin-top: 120px;
+}
+

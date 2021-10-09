@@ -1,0 +1,23 @@
+.servico__lista{
+    background-color: white;
+    height: 408px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 350px;
+    text-align: center;
+}
+
+.servico__lista__imagem{
+    height: 291px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 320px;
+}
+
+.servico__lista__titulo{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+
