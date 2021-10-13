@@ -32,6 +32,10 @@
     
     <link rel="stylesheet" href="css/index/servico-index/servico-galeria.css">
     <link rel="stylesheet" href="css/index/servico-index/servico-bg.css">
+
+    <link rel="stylesheet" href="css/index/contato/formulario.css">
+
+    <link rel="stylesheet" href="css/index/rodape/rodape.css">
     
     
 
@@ -65,7 +69,7 @@
                 </li>
 
                 <li class="nav-item menu__item">
-                  <a href="" class="nav-link">Contato</a>
+                  <a href="#contato" class="nav-link">Contato</a>
                 </li>
 
                 <li class="nav-item menu__item">
@@ -164,6 +168,46 @@
       </div>
      </div>
     </section>
+
+    <section class="container formulario">
+      <div class="formulario__titulo"> 
+        <h2>Contato</h2>
+      </div>
+      <div class="formulario__conteudo">
+      <form class="formularioContato">
+        <div>
+          <label class="form-label">Nome</label>
+          <input type="text" class="form-control" id="inputNome">
+        </div>
+        <div>
+          <label class="form-label">Telefone / Whatsapp</label>
+          <input type="text" class="form-control" id="inputFone">
+        </div>
+        <div>
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail">
+        </div>
+        <div>
+          <label class="form-label">Mensagem</label>
+          <textarea class="form-control" id="inputMensagem" rows="3"></textarea>
+        </div>
+        <div>
+          <button type="submit" class="btn btn-primary botaoMensagem">Enviar Mensagem</button>
+        </div>
+      </form>
+
+      <div>
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14768.439738438194!2d-51.4945326!3d-22.2738251!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea5787edfddaefd9!2sM%C3%B4naco%20de%20Pirapozinho%20Pe%C3%A7as%20Acess%C3%B3rios%20e%20Pneus%20Ltda!5e0!3m2!1spt-BR!2sbr!4v1634162648808!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+      
+    
+    </section>
+
+    <footer class="rodape container" id="contato">
+      <h5 class="rodape__descricao">Mônaco - Todos os Direitos Reservados &copy 2021/2022</h5>
+      <h5 class="rodape__descricao">FEITO PELO TIME DE ARARAQUARA UNIVESP</h5>
+    </footer>
 
     
     <!-- JavaScript (Opcional) -->

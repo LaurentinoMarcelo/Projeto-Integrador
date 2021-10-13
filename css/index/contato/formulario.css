@@ -1,0 +1,99 @@
+.formulario{
+    background: white;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.formularioContato{
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 700px;  
+}
+
+.botaoMensagem{
+    margin-top: 20px;
+    background: black;
+    font-weight: bold;
+    width: 250px;
+}
+
+.formulario__titulo{
+    text-align: center;
+}
+
+.botaoMensagem:hover{
+    color: black;
+    background: yellow;
+}
+
+.mapa{
+    margin-top: 20px;
+    display: inline-block;
+    width: auto;
+    border-radius: 20px;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 300px) and (max-width: 767.98px) { 
+    .formulario{
+        background: white;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .formularioContato{
+        width: 300px;
+    }
+    .mapa{
+        margin-top: 20px;
+        height: 300px;
+        width: 300px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {     
+    .formularioContato{
+        width: 700px;
+    }
+    .mapa{
+        margin-top: 20px;
+        height: 300px;
+        width: 700px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .formulario__conteudo{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .formularioContato{
+        width: 450px;
+    }
+    .mapa{
+        margin-top: 20px;
+        height: 300px;
+        width: 450px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .formulario__conteudo{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .formularioContato{
+        width: 700px;
+    }
+    .mapa{
+        height: 350px;
+        width: 700px;
+    }
+}
