@@ -26,23 +26,10 @@
     <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu.css">
     <link rel="stylesheet" type="text/css" href="css/index/cabecalho/logo.css">
 
-    <link rel="stylesheet" type="text/css" href="css/index/slide/slide-bg.css">
-    <link rel="stylesheet" type="text/css" href="css/index/slide/slide-botao.css">
-    <link rel="stylesheet" type="text/css" href="css/index/slide/slide-titulo.css">
-    <link rel="stylesheet" type="text/css" href="css/index/slide/slide.css">
-    <link rel="stylesheet" type="text/css" href="css/index/slide/slide-conteudo-texto.css">
-    <link rel="stylesheet" type="text/css" href="css/index/slide/slide-paragrafo.css">
-
-    <link rel="stylesheet" type="text/css" href="css/index/sobre/sobre-nos.css">
-    <link rel="stylesheet" type="text/css" href="css/index/sobre/sobre-botao.css">
-    <link rel="stylesheet" type="text/css" href="css/index/sobre/sobre-conteudo.css">
-    <link rel="stylesheet" type="text/css" href="css/index/sobre/sobre-paragrafo.css">
-    <link rel="stylesheet" type="text/css" href="css/index/sobre/sobre-titulo.css">
-    <link rel="stylesheet" href="css/formulario/formulario-campo-texto.css">
-
-    <link rel="stylesheet" href="css/index/servico-ofertados/servico-ofertado-titulo.css">
-    <link rel="stylesheet" href="css/index/servico-ofertados/servico-ofertado-bg.css">
-    <link rel="stylesheet" href="css/index/servico-ofertados/servico-ofertado-servico.css">
+    <link rel="stylesheet" href="css/index/slide/slide-conteudo.css">
+    <link rel="stylesheet" href="css/index/slide/slide-bg.css">
+    <link rel="stylesheet" href="css/index/slide/slide-texto.css">
+    
     
     
 
@@ -64,15 +51,15 @@
             <div class="collapse navbar-collapse" id="nav-principal">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item menu__item">
-                  <a href="" class="nav-link ">Home</a>
+                  <a href="#slide" class="nav-link ">Home</a>
                 </li>
 
                 <li class="nav-item menu__item">
-                  <a href="" class="nav-link">Sobre nós</a>
+                  <a href="#sobreNos" class="nav-link">Sobre nós</a>
                 </li>
 
                 <li class="nav-item menu__item">
-                  <a href="" class="nav-link">Produtos e serviços</a>
+                  <a href="#servicoOfertado" class="nav-link">Produtos e serviços</a>
                 </li>
 
                 <li class="nav-item menu__item">
@@ -89,8 +76,8 @@
       </nav>
     </header>
 
-    <section class="container">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <section class="container" id="slide">
+      <div id="carouselExampleIndicators" class="carousel" data-ride="carousel">
         <!-- Navegação entre os slides -->
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -100,11 +87,11 @@
             <div class="carousel-inner">
               <!-- Slide Principal -->
               <div class="carousel-item active">
-                  <div id="slide1" class="container">
-                        <div class="slide_conteudo_texto">
-                          <h1 class="slide__titulo">Cuidamos do seu veículo</h1>
-                          <p class="slide__paragrafo">Somos especialistas em cuidar do seu carro e oferecemos serviços completos para deixar seu carro com especificações de fabrica.</p>
-                          <button class="btn btn-dark slide__botao">Entrar em contato</button>
+                  <div id="slide1" class="container slide1">
+                        <div class="slide1__conteudo">
+                          <h1 class="slide1__titulo">Cuidamos do seu veículo</h1>
+                          <p class="slide1__paragrafo">Somos especialistas em cuidar do seu carro e oferecemos serviços completos para deixar seu carro com especificações de fabrica.</p>
+                          <button class="btn btn-dark slide1__botao">Entrar em contato</button>
                         </div>
                       
                   </div>
@@ -112,11 +99,11 @@
               </div>
               <!-- Slide Secundário -->
               <div class="carousel-item">
-                <div id="slide2" class="container">
-                  <div class="slide_conteudo_texto">
-                    <h1 class="slide__titulo">Cuidamos do seu veículo</h1>
-                    <p class="slide__paragrafo">Somos especialistas em cuidar do seu carro e oferecemos serviços completos para deixar seu carro com especificações de fabrica.</p>
-                    <button class="btn btn-dark slide__botao">Entrar em contato</button>
+                <div id="slide2" class="container slide2">
+                  <div class="slide2__conteudo">
+                    <h1 class="slide2__titulo">Cuidamos do seu veículo</h1>
+                    <p class="slide2__paragrafo">Somos especialistas em cuidar do seu carro e oferecemos serviços completos para deixar seu carro com especificações de fabrica.</p>
+                    <button class="btn btn-dark slide2__botao">Entrar em contato</button>
                   </div>
                 </div>
               </div>
@@ -125,7 +112,7 @@
         </div>
     </section>
 
-    <section class="sobre-nos container">
+    <section class="sobre-nos container" id="sobreNos">
       <div class="conteudo-sobre-nos">
         <h1 class="slide__titulo">Sobre nós</h1>
         <p class="slide__paragrafo">A oficina Mônaco deu inicio em suas atividades ... na cidade ..., desde então vendo sendo um diferencial no ramo de auto center, com profissionais qualificados, garantia nos serviços, preços implacáveis, sistema de leva e traz( KKKKKKK to inventando tudo nem sei se tem) e disponibilizando todo o conforto para os nossos clientes.</p>
@@ -135,7 +122,7 @@
       </div>
     </section>
 
-    <section class="container servico__ofertados__bg">
+    <section class="container servico__ofertados__bg" id="servicoOfertado">
      <h3 class="servico__ofertados__titulo"> Serviços Ofertados</h3>
      <div class="row">
        <div class="col-3 servico__ofertado__servico">

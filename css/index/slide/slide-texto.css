@@ -1,0 +1,75 @@
+.slide1__titulo{
+    color: white;
+    font-weight: bold;
+
+}
+
+.slide2__titulo{
+    color: black;
+    font-weight: bold; 
+}
+
+.slide1__paragrafo{
+    color: white;
+    font-weight: bold;
+
+}
+
+.slide2__paragrafo{
+    color: black;
+    font-weight: bold; 
+}
+
+.slide1__botao{
+    background: red;
+    color: white;
+    height: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.slide2__botao{
+    height: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 300px) and (max-width: 767.98px) { 
+    .slide1__titulo{
+        font-size: 25px;
+    
+    }
+    
+    .slide2__titulo{
+        color: white;
+        font-size: 25px;
+    }
+    
+    .slide1__paragrafo{
+        font-size: 15px;
+    
+    }
+    
+    .slide2__paragrafo{
+        color: white;
+        font-size: 15px;
+    }
+    
+    .slide1__botao{
+        background: red;
+        color: white;
+        height: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+    
+    }
+    
+    .slide2__botao{
+        height: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+

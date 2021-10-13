@@ -1,4 +1,4 @@
-html, body, #slide{
+html, body{
     height: 100%;
     overflow-x: hidden;
 }
@@ -9,12 +9,10 @@ body{
 }
 
 .container{
-    max-width: 1505px;
+    max-width: 1440px;
 }
 
-#carouselExampleIndicators{
-    height: 705px;
-}
+
 
 
 
@@ -24,7 +22,7 @@ body{
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 300px) and (max-width: 767.98px) { 
     body{
-        margin-top: 130px;
+        margin-top: 80px;
     }
 }
 
