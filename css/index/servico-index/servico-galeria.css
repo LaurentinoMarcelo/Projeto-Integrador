@@ -1,4 +1,4 @@
-.servico__titulo{
+.servico__titulo__principal{
     color: white;
     margin-left: auto;
     margin-right: auto;
@@ -21,6 +21,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
