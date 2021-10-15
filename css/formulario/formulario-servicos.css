@@ -4,11 +4,29 @@
     margin-bottom: 10px;
     margin-left: 15px;
     text-transform: uppercase;
-
 }
 
 .big-checkbox {
     width: 25px; 
     height: 25px;
-   
+}
+
+.lista__servico{
+    text-align: start;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 300px) and (max-width: 767.98px) { 
+    .formulario__servicos{
+        font-size: 10px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        text-transform: uppercase;
+    }
+    
+    .big-checkbox {
+        width: 15px; 
+        height: 15px;
+    }
 }

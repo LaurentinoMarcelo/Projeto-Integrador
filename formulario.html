@@ -50,19 +50,19 @@
             <div class="collapse navbar-collapse" id="nav-principal">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item menu__item">
-                  <a href="#slide" class="nav-link ">Home</a>
+                  <a href="index.html" class="nav-link ">Home</a>
                 </li>
 
                 <li class="nav-item menu__item">
-                  <a href="#sobreNos" class="nav-link">Sobre nós</a>
+                  <a href="index.html" class="nav-link">Sobre nós</a>
                 </li>
 
                 <li class="nav-item menu__item">
-                  <a href="#servicoOfertado" class="nav-link">Produtos e serviços</a>
+                  <a href="index.html" class="nav-link">Produtos e serviços</a>
                 </li>
 
                 <li class="nav-item menu__item">
-                  <a href="#contato" class="nav-link">Contato</a>
+                  <a href="index.html" class="nav-link">Contato</a>
                 </li>
 
                 <li class="nav-item menu__item">
@@ -76,10 +76,9 @@
     </header>
 
     <section class="container formulario">
-        <div class="container"></div>
-          <div class="row">
-            <div class="col">
-              <form class="container__formulario">
+          
+            
+              <form class="container__formulario formulario__conteudo">
       <!-- Selecione o Modelo -->           
                 <div class="form-group formulario__section">
                     <label class="formulario__label">Selecione o modelo</label>
@@ -145,7 +144,7 @@
                   <div class="container">
                     <label class="formulario__label">Selecione os serviços</label>
                     <div class="row">
-                      <div class="col-6">
+                      <div class="col-6 lista__servico">
                         <div class="form-check">
                           <input class="form-check-input big-checkbox" type="checkbox" name="alinhamento" id="checkAlinhamento" value="option1" checked>
                           <label class="form-check-label formulario__servicos" for="Alinhamento">
@@ -182,7 +181,7 @@
                       </div>
 
                       </div>
-                      <div class="col-6">
+                      <div class="col-6 lista__servico">
                         <div class="form-check">
                           <input class="form-check-input big-checkbox" type="checkbox" name="suspensao" id="suspensao" value="option6" checked>
                           <label class="form-check-label formulario__servicos" for="suspensao">
@@ -242,19 +241,9 @@
                   <label class="formulario__label">Informações de Contato</label>
                   
                   <div class="form-row">
-                    <div class="col-3 form-check">
-                      <input class="form-check-input big-checkbox" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                      <label class="form-check-label formulario__contato" for="exampleRadios1">
-                        Pessoal
-                      </label>
-                    </div>
-
-                    <div class="col-3 form-check">
-                      <input class="form-check-input big-checkbox" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                      <label class="form-check-label formulario__contato" for="exampleRadios1">
-                        Trabalho
-                      </label>
-                    </div>
+                    <select id="tipoContato" class="form-control form-control-lg formulario__campo formulario__campo__texto">
+                      <option>Pessoal</option>
+                      <option>Trabalho</option>   
                   </div> 
 
                 
@@ -265,7 +254,7 @@
                   
                     <input type="text" class="form-control formulario__campo formulario__campo__texto" placeholder="CPF">
 
-                    <input type="number" class="form-control formulario__campo formulario__campo__texto" placeholder="Telefone / Whatsapp">
+                    <input type="tel" class="form-control formulario__campo formulario__campo__texto" placeholder="Telefone / Whatsapp" pattern="([0-9]{2})[0-9]{5}-[0-9]{4}" required>
 
                     <input type="email" class="form-control formulario__campo formulario__campo__texto"  placeholder="Email" required>
                   </div>
@@ -275,14 +264,12 @@
                 <button type="submit" class="btn btn-primary botao__formulario" onclick="agendarManutencao">Agendar Manutenção</button>
               </form>
             </div>
-            <div class="col">
+
+            <div class="formulario__imagens">
               <img class="imagem_formulario" src="./imagens/imagens-Compactadas/imgem-formulario1.png" alt="">
               <img class="imagem_formulario" src="./imagens/imagens-Compactadas/imgem-formulario2.png" alt="">
               <img class="imagem_formulario" src="./imagens/imagens-Compactadas/imgem-formulario3.png" alt="">
             </div>
-
-          </div>
-        </div>
 
     </section>
 

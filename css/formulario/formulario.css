@@ -1,6 +1,19 @@
 .formulario{
     color: white;
     background-image: linear-gradient(#FF1F00, #1B1B1B);
+    justify-content: space-between;
+}
+
+.formulario__conteudo{
+    width: 700px;
+    display: inline-block;
+    
+}
+
+.formulario__imagens{
+    width: 700px;
+    display: inline-block;
+    
 }
 
 .imagem_formulario{
@@ -9,4 +22,36 @@
    margin-left: calc(100% - 600px);
    width: 600px;
 }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 300px) and (max-width: 767.98px) { 
+    .formulario__imagens{
+        display: none;
+        
+    }
+
+    .formulario__conteudo{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .formulario__imagens{
+        display: none;
+        
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .formulario__imagens{
+        display: none;
+        
+    }
+}
+
+
 
