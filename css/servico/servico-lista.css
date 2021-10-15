@@ -20,4 +20,39 @@
 }
 
 
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .servico__lista{
+        background-color: white;
+        height: 220px;
+        width: 350px;
+    }
+    
+    .servico__lista__imagem{
+        height: 150px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 300px;
+    }
+    
+    .servico__lista__titulo{
+        font-size: 15px;
+        text-align: center;
+        width: 200px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+@media (min-width: 1200px) { 
+ 
+}
+
+
+
 

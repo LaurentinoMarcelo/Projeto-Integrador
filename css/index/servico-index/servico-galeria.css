@@ -26,8 +26,9 @@
 }
 
 .servico__imagens{
-  height: 250px;
+  height: 220px;
   width: 270px;
+  margin-top: 10px;
 }
 
 /* Small devices (landscape phones, 576px and up)*/
