@@ -84,61 +84,50 @@
       <!-- Selecione o Modelo -->           
                 <div class="form-group formulario__section">
                     <label class="formulario__label">Selecione o modelo</label>
-                    <select class="form-control form-control-lg formulario__campo formulario__campo__texto" id="ano">
-                        <option>Ano</option>
-                        <option>Menor 2000</option>
-                        <option>2001</option>
-                        <option>2002</option>
-                        <option>2003</option>
-                        <option>2004</option>
-                        <option>2005</option>
-                        <option>2006</option>
-                        <option>2007</option>
-                        <option>2008</option>
-                        <option>2009</option>
-                        <option>2010</option>
-                        <option>2011</option>
-                        <option>2012</option>
-                        <option>2013</option>
-                        <option>2014</option>
-                        <option>2015</option>
-                        <option>2016</option>
-                        <option>2017</option>
-                        <option>2018</option>
-                        <option>2019</option>
-                        <option>2020</option>
-                        <option>2021</option>
-                        <option>2022</option>
+                    <select class="form-control form-control-lg formulario__campo formulario__campo__texto" id="anoSelecionado">
+                        <option value="" disabled="" selected="">Ano</option>
+                        <option value="menor2000">Menor 2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                        <option value="2005">2005</option>
+                        <option value="2006">2006</option>
+                        <option value="2007">2007</option>
+                        <option value="2008">2008</option>
+                        <option value="2009">2009</option>
+                        <option value="2010">2010</option>
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
                     </select>
 
-                    <select id="marca" class="form-control form-control-lg formulario__campo formulario__campo__texto">
-                        <option>Marca</option>
-                        <option>FIAT</option>
-                        <option>Volkswagen</option>
-                        <option>GM	</option>
-                        <option>Hyundai</option>
-                        <option>Renault</option>
-                        <option>Toyota</option>
-                        <option>Ford</option>
-                        <option>Honda</option>
-                        <option>Nissan</option>
-                        <option>Caoa Chery</option>
-                        <option>Peugeot</option>
-                        <option>Mitsubishi</option>
-                        <option>Citroen</option>
-                        <option>BMW</option>
-                        <option>Volvo</option>
-                        <option>Mercedes</option>
-                        <option>Audi</option>
-                        <option>Kia</option>
-                        <option>Iveco</option>
-                        <option>JAC</option>
-                        <option>Dodge</option>
-                        <option>Troler</option>
+                    <select class="form-control form-control-lg formulario__campo formulario__campo__texto"  id="marcaSelecionada">
+                        <option value="" disabled="" selected="">Marca</option>
+                        <option value="FIAT">FIAT</option>
+                        <option value="Volkswagen">Volkswagen</option>
+                        <option value="GM">GM</option>
+                        <option value="Hyundai">Hyundai</option>
+                        <option value="Renault">Renault</option>
+                        <option value="Toyota">Toyota</option>
+                        <option value="Ford">Ford</option>
+                        <option value="Honda">Honda</option>
+                        <option value="Nissan">Nissan</option>
+                        <option value="Peugeot">Peugeot</option>
+                        <option value="Citroen">Citroen</option>
                     </select>
 
-                    <select id="modelo" class="form-control form-control-lg formulario__campo formulario__campo__texto">
-                        <option>Modelo</option>
+                    <select id="listaModelos" onclick="selecaoModelo();" class="form-control form-control-lg formulario__campo formulario__campo__texto">
+                        <option value="" disabled="" selected="">Modelo</option>
                     </select> 
                 </div>
       <!-- Selecione os serviços -->        
@@ -263,7 +252,7 @@
                 </div>  
                   
               
-                <button type="submit" class="btn btn-primary botao__formulario" onclick="agendarManutencao">Agendar Manutenção</button>
+                <button type="submit" class="btn btn-primary botao__formulario" onclick="selecaoAno();">Agendar Manutenção</button>
               </form>
             </div>
 
