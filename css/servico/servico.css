@@ -37,16 +37,15 @@
 .servico_texto{
     display: inline-block;
     width: 48%;
+    margin-bottom: 20px;
 }
 
 .servico_margin_conteudo{
-    margin-top: 0px;
     display: inline-block;
+    height: 100%;
     width: 48%;
-}
-
-.servico_margin_conteudo{
-   text-align: center;
+    vertical-align: top;
+    text-align: center;
 }
 
 .servico__lista{
@@ -156,8 +155,17 @@
         margin-top: 10px;
         width: 992px;
     }
+
+    .servico__imagem{
+        width: 475px;
+    }
+
+    
 }
 
 @media (min-width: 1200px) { 
- 
+    .servico__imagem{
+        height: 100%;
+        width: 100%
+    }
 }
