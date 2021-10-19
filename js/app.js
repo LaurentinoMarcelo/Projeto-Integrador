@@ -101,7 +101,7 @@ function selecaoModelo(){
 
 
 
-const picker = document.getElementById('date1');
+const picker = document.getElementById('dateAgendamento');
 picker.addEventListener('input', function(e){
   var day = new Date(this.value).getUTCDay();
   if([6,0].includes(day)){
