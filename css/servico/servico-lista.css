@@ -24,21 +24,21 @@
 @media (min-width: 768px) and (max-width: 991.98px) { 
     .servico__lista{
         background-color: white;
-        height: 220px;
-        width: 350px;
+        height: 200px;
+        width: 180px;
     }
     
     .servico__lista__imagem{
         height: 150px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        width: 300px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 160px;
     }
     
     .servico__lista__titulo{
         font-size: 15px;
         text-align: center;
-        width: 200px;
+        width: 100%;
         font-weight: bold;
         text-transform: uppercase;
     }
@@ -46,11 +46,37 @@
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-
+    .servico__lista{
+        background-color: white;
+        height: 270px;
+        width: 250px;
+    }
+    
+    .servico__lista__imagem{
+        height: 190px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 230px;
+    }
+    
+    .servico__lista__titulo{
+        font-size: 15px;
+        text-align: center;
+        width: 100%;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
 }
 
 @media (min-width: 1200px) { 
- 
+    .servico__lista__titulo{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 15px;
+        width: 100%;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
 }
 
 

@@ -15,6 +15,18 @@
     text-transform: uppercase;
 }
 
+.formulario__hora{
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 70px;
+    width: 450px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 300px) and (max-width: 767.98px) { 
     .formulario__campo{
@@ -30,5 +42,17 @@
         width: 250px;
         text-align: center;
         text-transform: uppercase;
+    }
+
+    .formulario__hora{
+        border-radius: 10px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        height: 40px;
+        width: 250px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 15px;
+        margin-bottom: 25px;
     }
 }
