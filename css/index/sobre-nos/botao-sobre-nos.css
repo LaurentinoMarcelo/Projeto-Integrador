@@ -28,6 +28,34 @@
     font-size: 25px;
 }
 
+.sobre__imagens{
+    border: 5px solid black;
+    width: 100%;
+    max-width:1440px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.carousel-control-next{
+    margin-right: 15%;
+
+}
+.carousel-control-prev{
+    margin-left: 15%;
+
+}
+
+.carousel-control-prev-icon{
+    width: 50px;
+    height: 50%;
+}
+
+.carousel-control-next-icon{
+    width: 50px;
+    height: 50%;
+}
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 300px) and (max-width: 767.98px) { 
     .conteudo-sobre-nos{
@@ -43,5 +71,22 @@
         height: 50px;
         font-size: 20px;  
     }
+    
+    .carousel-control-prev-icon{
+        width: 25px;
+        height: 25%;
+    }
+    
+    .carousel-control-next-icon{
+        width: 25px;
+        height: 25%;
+    }
 
+    .sobre__imagens{
+        border: 5px solid black;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
 }

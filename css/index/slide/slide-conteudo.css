@@ -24,25 +24,24 @@
 @media (min-width: 300px) and (max-width: 467.98px) { 
     .slide1__conteudo{
         background: rgba(0, 0, 0, 0.4);
-        margin-right: 10%;
-        position: absolute;
+        margin-left: 200px;
         top: 60%;
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
         text-align: center;
-        width: 200px;
+        width: 90%;
     }
     
     
     .slide2__conteudo{
         background: rgba(0, 0, 0, 0.4);
-        margin-left: 10%;
-        position: absolute;
+        
+
         top: 60%;
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
         text-align: center;
-        width: 200px;
+        width: 90%;
     }
 }
 
