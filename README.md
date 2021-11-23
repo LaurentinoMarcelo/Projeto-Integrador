@@ -46,6 +46,9 @@ Nesse projeto tive a oportunidade de aplicar todos os conhecimentos adquiridos a
   <img title="Página principal" src="index.png" />  
   ---   
 
+Site oficial:
+<h1>https://monaco-web-app.herokuapp.com</h1>
+
 ## 🎨Layout
 
 O layout foi criado por [Marcelo Laurentino](https://www.linkedin.com/in/marcelo-laurentino-8a54ba114/).
@@ -59,3 +62,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [CSS](https://www.w3schools.com/css/)
 - [Bootstrap](https://getbootstrap.com/)
 - [VisualStudio](https://visualstudio.microsoft.com/pt-br/)
+
+
+
