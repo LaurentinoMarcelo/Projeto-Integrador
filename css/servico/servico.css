@@ -9,6 +9,7 @@
 
 .container__servico{
    height: 408px;   
+   text-align: justify;
 }
 
 .servico__imagem{
