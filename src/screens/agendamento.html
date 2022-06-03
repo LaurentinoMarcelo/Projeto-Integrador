@@ -1,189 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <!-- Font Roboto -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-    <!-- Estilo customizado -->
-    <link rel="stylesheet" type="text/css" href="css/index/estilo.css">
+  <!-- Font Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu-logo.css">
-    <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu-botao.css">
-    <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu-item.css">
-    <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu-link.css">
-    <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu.css">
-    <link rel="stylesheet" type="text/css" href="css/index/cabecalho/logo.css">
+  <!-- Estilo customizado -->
+  <link rel="stylesheet" type="text/css" href="css/index/estilo.css">
 
-    <link rel="stylesheet" href="css/agendamento/agendamento-link.css">
-    <link rel="stylesheet" href="css/agendamento/agendamento.css">
-    <link rel="stylesheet" href="css/agendamento/agendamento-cabecalho.css">
+  <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu-logo.css">
+  <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu-botao.css">
+  <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu-item.css">
+  <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu-link.css">
+  <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu.css">
+  <link rel="stylesheet" type="text/css" href="css/index/cabecalho/logo.css">
 
-    <title>Mônaco - Oficina</title>
-  </head>
+  <link rel="stylesheet" href="css/agendamento/agendamento-link.css">
+  <link rel="stylesheet" href="css/agendamento/agendamento.css">
+  <link rel="stylesheet" href="css/agendamento/agendamento-cabecalho.css">
 
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-ligh fixed-top menu">
-          <div class="container">
-            <a href="index.html" class="navbar-brand">
-               <img src="imagens/logo.png" class="menu__logo" alt="logo oficina">
-            </a>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-              <i class="fas fa-bars "></i>
-            </button>
+  <title>Mônaco - Oficina</title>
+</head>
 
-            <div class="collapse navbar-collapse" id="nav-principal">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item menu__item">
-                  <a href="#slide" class="nav-link ">Home</a>
-                </li>
 
-                <li class="nav-item menu__item">
-                  <a href="#sobreNos" class="nav-link">Sobre nós</a>
-                </li>
 
-                <li class="nav-item menu__item">
-                  <a href="#servicoOfertado" class="nav-link">Produtos e serviços</a>
-                </li>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-ligh fixed-top menu">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="imagens/logo.png" class="menu__logo" alt="logo oficina">
+        </a>
 
-                <li class="nav-item menu__item">
-                  <a href="#contato" class="nav-link">Contato</a>
-                </li>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+          <i class="fas fa-bars "></i>
+        </button>
 
-                <li class="nav-item menu__item">
-                  <a href="./formulario.html" class="btn btn-dark w-200 h-60 menu__botao">Agende um serviço</a>
-                </li>
-              </ul>
-            </div>
-          
-        </div>
-      </nav>
-    </header>
-
-    <section class="container">
-        <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <a href="" class="nav-link manutencao">Manutenção Agendadas</a>
-                </div>
-                <div class="col-3">
-                    <a href="" class="nav-link detalheManutencao">Detalhes Manutenção</a>                    
-                </div>
-            </div>
-        </div>
-
-        <div class="agendamento">
-            <li>
-                <ul class="cabecalho__tabela">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-2">
-                                Cliente
-                            </div>
-                            <div class="col-2">
-                                Contato
-                            </div>
-                            <div class="col-2">
-                                Carro
-                            </div>
-                            <div class="col-2">
-                                Serviços Agendados
-                            </div>
-                            <div class="col-1">
-                                Horário
-                            </div>
-                            <div class="col-1">
-                                Data
-                            </div>
-                        </div>
-                    </div>
-                </ul>
-
-                <ul class="cabecalho__lista">
-                  <div class="container">
-                      <div class="row">
-                          <div class="col-2">
-                              Marcelo Laurentino    
-                          </div>
-                          <div class="col-2">
-                              (16)99606-0074
-                          </div>
-                          <div class="col-2">
-                              Gol G5
-                          </div>
-                          <div class="col-2">
-                              Troca de Pneus 
-                          </div>
-                          <div class="col-1">
-                              09:30
-                          </div>
-                          <div class="col-1">
-                              06/10/2021
-                          </div>
-                          <div class="col-1">
-                            <button class="confirmar__agendamento"></button>
-                          </div>
-                          <div class="col-1">
-                            <button class="excluir__agendamento"></button>
-                          </div>
-                      </div>
-                  </div>
-                </ul>
-
-                <ul class="cabecalho__lista">
-                  <div class="container">
-                      <div class="row">
-                          <div class="col-2">
-                              Marcelo Laurentino    
-                          </div>
-                          <div class="col-2">
-                              (16)99606-0074
-                          </div>
-                          <div class="col-2">
-                              Gol G5
-                          </div>
-                          <div class="col-2">
-                              Troca de Pneus 
-                          </div>
-                          <div class="col-1">
-                              09:30
-                          </div>
-                          <div class="col-1">
-                              06/10/2021
-                          </div>
-                          <div class="col-1">
-                            <button class="confirmar__agendamento"></button>
-                          </div>
-                          <div class="col-1">
-                            <button class="excluir__agendamento"></button>
-                          </div>
-                      </div>
-                  </div>
-                </ul>
+        <div class="collapse navbar-collapse" id="nav-principal">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item menu__item">
+              <a href="#slide" class="nav-link ">Home</a>
             </li>
+
+            <li class="nav-item menu__item">
+              <a href="#sobreNos" class="nav-link">Sobre nós</a>
+            </li>
+
+            <li class="nav-item menu__item">
+              <a href="#servicoOfertado" class="nav-link">Produtos e serviços</a>
+            </li>
+
+            <li class="nav-item menu__item">
+              <a href="#contato" class="nav-link">Contato</a>
+            </li>
+
+            <li class="nav-item menu__item">
+              <a onclick="ApiCardData()" class="btn btn-dark w-200 h-60 menu__botao">Agende um serviço</a>
+            </li>
+          </ul>
         </div>
-        
-        
-    </section>
 
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      </div>
+    </nav>
+  </header>
+ 
+ <table id="tabela"></table>
 
-    <script src="js/app.js"></script>
-  </body>
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <script src="../js/app.js"></script>
+
+  <script src="../api/CarData.js"></script>
+</body>
+
 </html>
