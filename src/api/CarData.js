@@ -1,51 +1,55 @@
-function criaLinha(cars){
+function criaLinha(cars) {
 	linha = document.createElement("tr");
 
-	tdId = document.createElement("td");
-	tdYear = document.createElement("td");
-	tdMake = document.createElement("td");
-	tdModel = document.createElement("td");
-	tdType = document.createElement("td");
+	make = document.createElement("td");
+	model = document.createElement("td");
+	cylinders = document.createElement("td");
+	year = document.createElement("td");
+	transmission = document.createElement("td");
+	fuel_type=document.createElement("td");
 
-	tdId.innerHTML = cars.id;
-	tdYear.innerHTML = cars.year;
-	tdMake.innerHTML = cars.make;
-	tdModel.innerHTML = cars.model;
-	tdType.innerHTML = cars.type;
+	make.innerHTML = cars.make;
+	model.innerHTML = cars.model;
+	cylinders.innerHTML = cars.cylinders;
+	year.innerHTML = cars.year;
+	transmission.innerHTML = cars.transmission;
+	transmission.innerHTML = cars.transmission;
 
-	linha.appendChild(tdId);
-	linha.appendChild(tdYear);
-	linha.appendChild(tdMake);
-	linha.appendChild(tdModel);
-	linha.appendChild(tdType);
+	linha.appendChild(make);
+	linha.appendChild(model);
+	linha.appendChild(cylinders);
+	linha.appendChild(year);
+	linha.appendChild(transmission);
+	linha.appendChild(transmission);
 
 	return linha;
 }
 
-function ApiCardData(){
-	alert("Eu sou um alert!");
-	
-		const options = {
+
+function ApiCardData(fabricante) {
+	alert("Eu sou um alert 2!");
+
+	const options = {
 		method: 'GET',
-		url: 'https://car-data.p.rapidapi.com/cars',
-		params: {limit: '50', page: '0'},
+		url: 'https://api.api-ninjas.com/v1/cars?limit=30&make=' + fabricante,
 		headers: {
-		  'X-RapidAPI-Host': 'car-data.p.rapidapi.com',
-		  'X-RapidAPI-Key': '302cb51109mshbb577f353623720p17620cjsn56eb6909aaae'
-		}
-	  };
-	  
-	  axios.request(options).then(function (response) {
-		 let cars = response.data;
+			'X-Api-Key': 'QC4+leFexAHBjfM5Q+fpog==FgGtErKDP9ALE2VC'
+		},
+	};
+
+	axios.request(options).then(function (response) {
+		let cars = response.data;
 		let tabela = document.getElementById("tabela")
-		 cars.forEach(element => {
-			 let linha = criaLinha(element);
-			 tabela.appendChild(linha);
-		 });
-		 
-	  }).catch(function (error) {
-		  console.error(error);
-	  });
-  
+		cars.forEach(element => {
+			
+			let linha = criaLinha(element);
+			tabela.appendChild(linha);
+		});
+		
+	}).catch(function (error) {
+		console.error(error);
+	});
+
+
 }
 

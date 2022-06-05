@@ -20,37 +20,37 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
   <!-- Estilo customizado -->
-  <link rel="stylesheet" type="text/css" href="css/index/estilo.css">
+  <link rel="stylesheet" type="text/css" href="../css/index/estilo.css">
 
-  <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu-logo.css">
-  <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu-botao.css">
-  <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu-item.css">
-  <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu-link.css">
-  <link rel="stylesheet" type="text/css" href="css/index/cabecalho/menu.css">
-  <link rel="stylesheet" type="text/css" href="css/index/cabecalho/logo.css">
+  <link rel="stylesheet" type="text/css" href="../css/index/cabecalho/menu-logo.css">
+  <link rel="stylesheet" type="text/css" href="../css/index/cabecalho/menu-botao.css">
+  <link rel="stylesheet" type="text/css" href="../css/index/cabecalho/menu-item.css">
+  <link rel="stylesheet" type="text/css" href="../css/index/cabecalho/menu-link.css">
+  <link rel="stylesheet" type="text/css" href="../css/index/cabecalho/menu.css">
+  <link rel="stylesheet" type="text/css" href="../css/index/cabecalho/logo.css">
 
-  <link rel="stylesheet" href="css/agendamento/agendamento-link.css">
-  <link rel="stylesheet" href="css/agendamento/agendamento.css">
-  <link rel="stylesheet" href="css/agendamento/agendamento-cabecalho.css">
+  <link rel="stylesheet" href="../css/agendamento/agendamento-link.css">
+  <link rel="stylesheet" href="../css/agendamento/agendamento.css">
+  <link rel="stylesheet" href="../css/agendamento/agendamento-cabecalho.css">
 
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
   <title>Mônaco - Oficina</title>
 </head>
 
-
-
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-ligh fixed-top menu">
       <div class="container">
         <a href="index.html" class="navbar-brand">
-          <img src="imagens/logo.png" class="menu__logo" alt="logo oficina">
+          <img src="../assets/logo.png" class="menu__logo" alt="logo oficina">
         </a>
 
         <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
           <i class="fas fa-bars "></i>
         </button>
+
+
 
         <div class="collapse navbar-collapse" id="nav-principal">
           <ul class="navbar-nav ml-auto">
@@ -79,8 +79,20 @@
       </div>
     </nav>
   </header>
- 
- <table id="tabela"></table>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <button onclick="ApiCardData(document.getElementById('fabricante').value)" class="btn btn-outline-secondary"
+        type="button">Fitlrar</button>
+    </div>
+    <input id="fabricante" type="text" class="form-control" placeholder="Digite um fabricante ex: hyundai" aria-label=""
+      aria-describedby="basic-addon1">
+  </div>
+
+  <table id="tabela"></table>
+
+
+
 
   <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -96,6 +108,9 @@
   <script src="../js/app.js"></script>
 
   <script src="../api/CarData.js"></script>
+
+  <script src="../api//CarsAPI.js"></script>
+
 </body>
 
 </html>
