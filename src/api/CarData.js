@@ -26,12 +26,11 @@ function criaLinha(cars) {
 }
 
 
-function ApiCardData(fabricante) {
-	alert("Eu sou um alert 2!");
-
+function ApiCardData(modelo) {
+	
 	const options = {
 		method: 'GET',
-		url: 'https://api.api-ninjas.com/v1/cars?limit=30&make=' + fabricante,
+		url: 'https://api.api-ninjas.com/v1/cars?limit=30&model=' + modelo,
 		headers: {
 			'X-Api-Key': 'QC4+leFexAHBjfM5Q+fpog==FgGtErKDP9ALE2VC'
 		},

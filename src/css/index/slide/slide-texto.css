@@ -9,6 +9,11 @@
     font-weight: bold; 
 }
 
+.slide3__titulo{
+    color: white;
+    font-weight: bold; 
+}
+
 .slide1__paragrafo{
     color: white;
     font-weight: bold;
@@ -17,6 +22,11 @@
 
 .slide2__paragrafo{
     color: black;
+    font-weight: bold; 
+}
+
+.slide3__paragrafo{
+    color: white;
     font-weight: bold; 
 }
 
