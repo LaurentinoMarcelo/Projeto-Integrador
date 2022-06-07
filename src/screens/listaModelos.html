@@ -50,28 +50,27 @@
           <i class="fas fa-bars "></i>
         </button>
 
-
-
-        <div class="collapse navbar-collapse" id="nav-principal">
+        <div class="collapse navbar-collapse" id="nav-principal" alt="Barra de navegação">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item menu__item">
-              <a href="#slide" class="nav-link ">Home</a>
+              <a href="./index.html" class="nav-link " alt="Seção tela principal">Home</a>
             </li>
 
             <li class="nav-item menu__item">
-              <a href="#sobreNos" class="nav-link">Sobre nós</a>
+              <a href="./index.html" class="nav-link" alt="Seção sobre informações da oficina">Sobre nós</a>
             </li>
 
             <li class="nav-item menu__item">
-              <a href="#servicoOfertado" class="nav-link">Produtos e serviços</a>
+              <a href="./index.html" class="nav-link" alt="Seção tela principal">Produtos e serviços</a>
             </li>
 
             <li class="nav-item menu__item">
-              <a href="#contato" class="nav-link">Contato</a>
+              <a href="./index.html" class="nav-link" alt="Seção tela contato oficina">Contato</a>
             </li>
 
             <li class="nav-item menu__item">
-              <a onclick="ApiCardData()" class="btn btn-dark w-200 h-60 menu__botao">Agende um serviço</a>
+              <a href="./formulario.html" class="btn btn-dark w-200 h-60 menu__botao" alt="Botão agendar serviço">Agende
+                um serviço</a>
             </li>
           </ul>
         </div>
@@ -80,16 +79,35 @@
     </nav>
   </header>
 
-  <div class="input-group mb-3">
-    <div class="input-group-prepend">
-      <button onclick="ApiCardData(document.getElementById('fabricante').value)" class="btn btn-outline-secondary"
-        type="button">Fitlrar</button>
+  <section class="container">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <button style="margin-top: 40px; font-size: 24px; font-weight: bold; background-color: black;" onclick="ApiCardData(document.getElementById('fabricante').value)" class="btn btn-outline-secondary"
+          type="button">Fitlrar</button>
+      </div>
+      <input style="margin-top: 40px; height: 56px; font-size: 24px; font-weight: bold;" id="fabricante" type="text" class="form-control" placeholder="Digite um modelo ex: elantra" aria-label=""
+        aria-describedby="basic-addon1">
     </div>
-    <input id="fabricante" type="text" class="form-control" placeholder="Digite um modelo ex: elantra" aria-label=""
-      aria-describedby="basic-addon1">
-  </div>
 
-  <table id="tabela"></table>
+    <table id="tabela" style="width: 100%; 
+                              background: black; 
+                              color: white; 
+                              text-align: center; 
+                              justify-content: space-between; 
+                              font-size: 24px; 
+                              font-weight: bold;">
+      <tr style="align-items: center; background-color: red;">
+        <td style="font-size: 32px;">Fabricante</td>
+        <td style="font-size: 32px;">Modelo</td>
+        <td style="font-size: 32px;">Cilindros</td>
+        <td style="font-size: 32px;">Ano Modelo</td>
+        <td style="font-size: 32px;">Transmissão</td>
+        <td style="font-size: 32px;">Acionamento</td>
+        <td style="font-size: 32px;">Combustivel</td>
+      </tr>
+    </table>
+  </section>
+
 
 
 
